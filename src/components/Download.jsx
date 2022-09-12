@@ -15,7 +15,17 @@ const Download = () => {
           </p>
         </div>
 
-        <button className={styles.btnPrimary}>Source Code</button>
+        <button
+          onClick={() =>
+            window.open(
+              "https://github.com/DebayoTomisin/Market-showcase",
+              "_blank"
+            )
+          }
+          className={styles.btnPrimary}
+        >
+          Source code
+        </button>
 
         <div className={styles.flexCenter}>
           <img
